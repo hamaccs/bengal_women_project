@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header-intro{
+  background-color: #fbe5d7;
+}
+.header-intro .u-logo{
+  height: 120px;
+  width: 120px;
+}
+.header-intro .u-logo-1{
+  height: 120px;
+  width: 140px;
+}
+.header-intro p{
+  font-size: 18px;
+}
+.nav-color{
+  background-color: #7e6000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 20px;
+}
+.mentor{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+.designation{
+  font-weight: 500;
+  font-size: 13px;
+}
+.carousel-indicators [data-bs-target]{
+  height: 15px !important;
+  width: 15px !important;
+  margin: 10px !important;
+}
+#release{
+  display: none;
+}
+#release2{
+  display: none;
+}
+.imgset{
+  height: 150px;
+  width: 150px;
+}
+.btn{
+  width: 100%;
+}
+.first hr{
+  width: 50%;
+  height: 5px !important;
+  color: #febd01 !important;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+}
+.only-mobile{
+  display: none;
+}
+@media(max-width: 768px){
+  .only-mobile{
+    display: block;
+  }
+  .only-pc{
+    display: none;
+  }
+}
+footer{
+  background-color: #7e6000;
+}
+.foot-text{
+  color: #fff;
+}
+.foot-lnk a{
+  text-decoration: none;
+  color: #fff;
+}
+.foot-lnk a:hover{
+  color: lightgreen;
+}
+.social-icon .fa{
+  font-size: 20px;
+  color: #00b8d4;
+  background-color: #ffe0b2;
+  padding: 15px;
+  border-radius: 50%;
+}
+.setimg{
+  height: 115px;
+  width: 115px;
+}
+.fa-phone{
+  transform: rotate(90deg);
+  font-size: 20px;
+}
+.copyrgt{
+  font-size: 18px;
+}
+.copyrgt a{
+  text-decoration: none;
+}
+.thumbnail-img{
+  width: 80px;
+  height: 80px;
+}
+.video-list ul{
+  list-style-type: none;
+  overflow: hidden;
+  height: 400px;
+  overflow-y: scroll;
+}
+.add-foot{
+  background-color: lightgreen;
+  height: 200px;
+  border-radius: 25px;
+}
+.add-foot p{
+  padding: 10px;
+  font-size: 20px;
+  overflow: auto;
+  word-break: break-all;
+  font-weight: bold;
+  color: #795548;
+}
+.add-foot .fa{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 15px;
+}
+/*Form Css*/
+form{
+  background-color: rgba(0,0,0,0.3);
+  width: 50%;
+  margin: auto;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+label{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+input[type='text'],[type='date'],[type='number'],[type='password'],select{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+@media(max-width: 990px){
+  form{
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
+  margin: auto;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+}
